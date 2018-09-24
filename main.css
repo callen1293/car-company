@@ -1,6 +1,110 @@
+body {
+    
+   margin: 0;
+    padding: 0;
+    background: #fff;
+    
+}
 
 
 
+@media only screen and (min-width: 768px){
+    
+    
+    nav {
+        
+        background: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1)),url(carcompany.jpg);
+        background-size: cover;
+        height: 580px;
+        width: 100%;
+        padding-top: 20px;
+        z-index: 1;
+        
+    }
+    
+    .menu-bar ul {
+        
+       margin-left: 710px; 
+       margin-top: 30px;
+    
+        
+    }
+    
+    
+    .menu-bar li {
+        
+        list-style: none;
+        display: inline;
+        padding-left: 120px;
+        
+        
+        
+    }
+    
+    
+    .menu-bar ul li a {
+        
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 17px;
+        color: #000;
+        font-weight: bold;
+      
+    }
+    
+     .menu-bar ul li a:hover {
+    
+         color: #fff;
+         
+         
+    }
+    
+    .logoimg {
+        
+        margin-top: -120px;
+        margin-left: -70px;
+        
+    }
+    
+    nav p {
+        
+        width: 40%;
+        margin-left: 70px;
+        font-family: sans-serif;
+        line-height: 35px;
+        font-size: 25px;
+      
+        
+    }
+    
+    
+    .menu-button{
+        
+        position: relative;
+        z-index: 2;
+        top: -25px;
+        left: 43%;
+        padding: 15px;
+        width: 220px;
+        font-size: 20px;
+        font-family: sans-serif;
+        background: #fff;
+        color: #00a00d;
+        border-top: 2px solid #00a00d;
+        border-left: 2px solid #00a00d;
+        border-right: 2px solid #00a00d;;
+        border-bottom: none
+        
+        
+        
+    }
+        
+        
+    
+    
+    
+    
+}
 
 
 
