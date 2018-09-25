@@ -92,8 +92,72 @@ body {
         color: #00a00d;
         border-top: 2px solid #00a00d;
         border-left: 2px solid #00a00d;
-        border-right: 2px solid #00a00d;;
+        border-right: 2px solid #00a00d;
         border-bottom: none
+        
+        
+        
+    }
+    
+    
+    .box {
+        
+        position: relative;
+        left: 50px;
+        width: 400px;
+        height: 310px;
+        background-color: #00a00d;
+        border-radius: 2%;
+        font-family: sans-serif;
+       
+    }
+    
+     .box .icon .fa {
+        
+        
+    
+    position: absolute;
+    top: 13%;
+    left: 45%;
+    font-size: 60px;
+    color: #fff;  
+    z-index: 2;
+     
+    }
+    
+    .background-icon {
+        
+        position: relative;
+        top: 28px;
+        left: 157px;
+        z-index: 1;
+        background: #319635;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        
+        
+    }
+    
+    
+    
+    .box p {
+        
+       position: relative;
+       top: 15px;
+       text-align: center;
+       color: #fff;
+       line-height: 25px
+        
+    }
+    
+    .box h3 {
+        
+        position: relative;
+        top: 15px;
+        text-align: center;
+        color: #fff;
+        font-size: 30px;
         
         
         
@@ -253,6 +317,8 @@ body {
         height: 100vh;
    
     }
+    
+    
     
     
     
