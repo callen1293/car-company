@@ -82,7 +82,7 @@ body {
         
         position: relative;
         z-index: 2;
-        top: -25px;
+        top: -260px;
         left: 43%;
         padding: 15px;
         width: 220px;
@@ -100,15 +100,24 @@ body {
     }
     
     
+    
+    
+    
+    /* box 1 */
+    
+    
     .box {
         
+    
         position: relative;
-        left: 50px;
+        top: 90px;
+        left: -100px;
         width: 400px;
         height: 310px;
-        background-color: #00a00d;
         border-radius: 2%;
         font-family: sans-serif;
+        display: inline-block;
+        opacity: 0;
        
     }
     
@@ -146,7 +155,7 @@ body {
        position: relative;
        top: 15px;
        text-align: center;
-       color: #fff;
+       color: #319635;
        line-height: 25px
         
     }
@@ -156,7 +165,7 @@ body {
         position: relative;
         top: 15px;
         text-align: center;
-        color: #fff;
+        color: #319635;
         font-size: 30px;
         
         
@@ -164,6 +173,78 @@ body {
     }
         
         
+    /* box 2 */
+    
+   .background-icon2 {
+        
+        position: relative;
+        top: 28px;
+        left: 165px;
+        z-index: 1;
+        background: #319635;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+       
+       
+        .box .icon2 .fa {
+            
+            
+         position: absolute;
+         top: 13%;
+         left: 44%;
+         font-size: 50px;
+         color: #fff;  
+         z-index: 2;
+            
+       }
+        
+        
+    
+    position: absolute;
+    top: 13%;
+    left: 45%;
+    font-size: 60px;
+    color: #fff;  
+    z-index: 2;
+        
+        
+    }
+    
+    /* box 3 */
+    
+    
+     .background-icon3 {
+        
+        position: relative;
+        top: 28px;
+        left: 157px;
+        z-index: 1;
+        background: #319635;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        
+        
+    }
+
+
+       .box .icon3 .fa {
+        
+        
+    
+    position: absolute;
+    top: 13%;
+    left: 44%;
+    font-size: 55px;
+    color: #fff;  
+    z-index: 2;
+     
+    }
+
+
+      
     
     
     
