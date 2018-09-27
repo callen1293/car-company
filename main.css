@@ -100,6 +100,32 @@ body {
     }
     
     
+    .menu-button2{
+        
+        position: relative;
+        z-index: 2;
+        top: -28px;
+        left: 43%;
+        padding: 15px;
+        width: 220px;
+        font-size: 20px;
+        font-family: sans-serif;
+        background: #fff;
+        color: #00a00d;
+        border-top: 2px solid #00a00d;
+        border-left: 2px solid #00a00d;
+        border-right: 2px solid #00a00d;
+        border-bottom: none
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    
     
     
     
@@ -242,6 +268,66 @@ body {
     z-index: 2;
      
     }
+
+
+
+/* Services html */
+
+.hr1 , .hr2, .hr3, .hr4  {
+    
+    position: relative;
+    background: #ccc500;
+    height: 2px;
+    border: none;
+    
+    
+}
+
+.hr1, .hr2 {
+    
+    left: -433px;
+    top: 50px;
+    width: 530px;
+    
+    
+}
+
+
+.hr3, .hr4 {
+    
+    right: -445px;
+    top: -74px;
+    width: 500px;
+    
+    
+}
+
+
+.headline {
+    
+    position: relative;
+    color: #319635;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-align: center;
+    top: -15px;
+    left: 12px;
+    
+    
+}
+
+.mainheadline {
+    
+
+    opacity: 0;
+   
+}
+
+
+
+
 
 
       
