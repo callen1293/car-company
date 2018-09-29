@@ -36,6 +36,7 @@ var scrollPercentTwo = (targetHeightTwo - window.scrollY) / targetHeightTwo;
   }
 });
        
+          
     
     
 });
