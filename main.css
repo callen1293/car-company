@@ -489,10 +489,68 @@ body {
     
 }
 
+
+
+
+
+/* contact html */
+
+
+.menu-button3 {
     
     
+    position: relative;
+        z-index: 2;
+        top: -28px;
+        left: 43%;
+        padding: 15px;
+        width: 220px;
+        font-size: 20px;
+        font-family: sans-serif;
+        background: #fff;
+        color: #00a00d;
+        border-top: 2px solid #00a00d;
+        border-left: 2px solid #00a00d;
+        border-right: 2px solid #00a00d;
+        border-bottom: none
+        
     
     
+}
+
+.get-in-touch h1 {
+    
+    text-align: center;
+    
+}
+
+
+
+input {
+    
+    border: none;
+    border-bottom: 2px solid #000;
+    position: relative;
+}
+
+
+
+
+ .submit-btn {
+      display: inline-block;
+      background-color: #000;
+      color: #fff;
+      font-family: Raleway, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 16px;
+      line-height: 24px;
+      padding: 8px 16px;
+      border: none;
+      cursor: pointer;
+   }
+
+
 }
 
 
