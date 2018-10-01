@@ -36,7 +36,36 @@ var scrollPercentTwo = (targetHeightTwo - window.scrollY) / targetHeightTwo;
   }
 });
        
-          
     
     
+    
+   $("#email").focus(function(){
+    $(".label2").css('top','-40px');
+}); 
+    
+    
+    $("#message").focus(function(){
+    $(".label3").css('right','450px');
 });
+    
+    
+   if($('#name').is(':focus') {
+        
+        $('.label1').css('opacity','0');
+        
+    } else {
+        
+        
+        $('.label1').css('opacity','1');
+    };
+
+);
+
+
+});
+    
+      
+    
+    
+    
+    
