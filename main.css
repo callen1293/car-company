@@ -144,6 +144,7 @@ body {
         font-family: sans-serif;
         display: inline-block;
         opacity: 0;
+        margin-bottom: 100px;
        
     }
     
@@ -273,6 +274,13 @@ body {
 
 /* Services html */
 
+
+.mainservice {
+    
+    opacity: 0;
+}
+
+
 .hr1 , .hr2, .hr3, .hr4  {
     
     position: relative;
@@ -322,7 +330,7 @@ body {
     
 
     margin-top: 20px;
-    opacity: 0;
+
    
 }
 
@@ -518,9 +526,79 @@ body {
     
 }
 
+
+.get-in-touch {
+    
+    font-family: sans-serif;
+    opacity: 0;
+    
+    
+}
+
+
+.contacthr1 , .contacthr2 , .contacthr3 , .contacthr4 {
+    
+     position: relative;
+    background: #ccc500;
+    height: 2px;
+    border: none;
+    
+    
+}
+
+.contacthr1, .contacthr2 {
+    
+    left: -415px;
+    top: 50px;
+    width: 575px;
+}
+
+
+.contacthr3, .contacthr4 {
+    
+    right: -420px;
+    top: -42px;
+    width: 550px;
+    
+}
+
+
+.contacthr1 {
+    
+    
+    
+    
+}
+
+.contacthr2 {
+    
+    
+    
+    
+}
+
+.contacthr3 {
+    
+    
+    
+    
+}
+
+.contacthr4 {
+    
+    
+    
+    
+}
+
+
 .get-in-touch h1 {
     
     text-align: center;
+    color:  #319635;
+    text-transform: uppercase;
+    margin-left: 16px;
+    font-weight: 100;
     
 }
 
@@ -530,6 +608,16 @@ body {
     margin-bottom: 70px;
     text-align: center;
     width: 50%;
+    color: #939393;
+    line-height: 25px;
+    font-size: 20px;
+    
+    
+}
+
+form {
+    
+    margin-top: 120px;
     
 }
 
@@ -542,11 +630,14 @@ input {
     position: relative;
     font-size: 25px;
     outline: 0 none;
+    border-color: #ccc500;
+    color: #939393;
 }
 
 
 *:focus {
     outline: 0;
+    
 }
 
 input:-webkit-autofill {
@@ -555,42 +646,50 @@ input:-webkit-autofill {
 
 #name {
     
-   left: 400px; 
+   left: 260px; 
    width: 300px;
+   padding-left: 100px;
+   padding-bottom: 10px;
     
 }
 
 
 #email {
     
-    left: 390px;
+    left: 300px;
     width: 300px;
+    padding-left: 100px;
+    padding-bottom: 10px;
     
 }
 
 #message {
     
     top: 150px;
-    left: 390px;
-    width: 700px;
+    left: 250px;
+    width: 800px;
+    padding-left: 140px;
+    padding-bottom: 10px;
     
 }
 
 
 
  .submit-btn {
-     position: relative;
-     top: 250px;
-     right: 149px;
-     background-color: #000;
-      color: #fff;
+      position: relative;
+      top: 250px;
+      right: 445px;
+      width: 200px;
       text-transform: uppercase;
+      border-radius: 5%;
       letter-spacing: 2px;
       font-size: 20px;
       line-height: 24px;
       padding: 10px 20px;
-      border: none;
       cursor: pointer;
+      color:  #319635;
+      border: 2px solid #939393;
+      margin-bottom: 50px;
    }
 
 
@@ -598,27 +697,30 @@ label {
     
     font-size: 30px;
     position: relative;
+    color:  #319635;
+    font-weight: 100;
+    
     
     
 }
 
 .label1 {
     
- left: 95px;
- top: -10px;
+ left: -145px;
+ 
 }
 
 
 .label2 {
     
-    top: -10px;
-    left: 85px;
+    
+    left: -104px;
 }
 
 .label3 {
     
-    top: 135px;
-    right: 315px;
+    top: 149px;
+    right: 693px;
     
 }
 
