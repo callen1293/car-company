@@ -693,6 +693,18 @@ input:-webkit-autofill {
    }
 
 
+.submit-btn:hover {
+    
+    
+    color: #fff;
+    background: #319635;
+    border: 2px solid #319635;
+    
+    
+    
+}
+
+
 label {
     
     font-size: 30px;
